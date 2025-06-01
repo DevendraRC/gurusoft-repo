@@ -50,7 +50,7 @@ function MyNavbar() {
         className={`my-navbar fade-navbar ${isScrolled ? 'shrink-navbar' : ''}`}
       >
         <Container>
-          <NavbarBrand href="/">
+          <NavbarBrand tag={Link} to="/">
             <img src={logo} alt="Logo" className="navbar-logo" />
           </NavbarBrand>
 
@@ -69,12 +69,12 @@ function MyNavbar() {
                   Services
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem tag={Link} href="/webDevelopment">Web Development</DropdownItem>
-                  <DropdownItem tag={Link} href="/mobileAppDevelopment">Mobile App Development</DropdownItem>
-                  <DropdownItem tag={Link} href="/dataAnalytics">Data Analytics</DropdownItem>
-                  <DropdownItem tag={Link} href="/sEO">Search Engine Optimization (SEO)</DropdownItem>
-                  <DropdownItem tag={Link} href="/cloudServices">Cloud Services</DropdownItem>
-                  <DropdownItem tag={Link} href="/itConsulting">IT Consulting</DropdownItem>
+                  <DropdownItem tag={Link} to="/webDevelopment">Web Development</DropdownItem>
+                  <DropdownItem tag={Link} to="/mobileAppDevelopment">Mobile App Development</DropdownItem>
+                  <DropdownItem tag={Link} to="/dataAnalytics">Data Analytics</DropdownItem>
+                  <DropdownItem tag={Link} to="/sEO">Search Engine Optimization (SEO)</DropdownItem>
+                  <DropdownItem tag={Link} to="/cloudServices">Cloud Services</DropdownItem>
+                  <DropdownItem tag={Link} to="/itConsulting">IT Consulting</DropdownItem>
                 </DropdownMenu>
               </Dropdown>
 
