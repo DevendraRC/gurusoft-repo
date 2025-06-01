@@ -16,6 +16,8 @@ import {
 import '../styles/MyNavbar.css';
 import logo from '../assets/logo.png';
 import instagramIcon from '../assets/instagram.png';
+import { Link } from 'react-router-dom';
+
 
 function MyNavbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,10 +58,10 @@ function MyNavbar() {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mx-auto" navbar>
               <NavItem>
-                <NavLink href="/home">Home</NavLink>
+              <NavLink tag={Link} to="/home">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/about">About</NavLink>
+              <NavLink tag={Link} to="/about">About</NavLink>
               </NavItem>
 
               <Dropdown nav inNavbar isOpen={servicesOpen} toggle={toggleServices} className="hover-dropdown">
@@ -67,25 +69,25 @@ function MyNavbar() {
                   Services
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem tag="a" href="/webDevelopment">Web Development</DropdownItem>
-                  <DropdownItem tag="a" href="/mobileAppDevelopment">Mobile App Development</DropdownItem>
-                  <DropdownItem tag="a" href="/dataAnalytics">Data Analytics</DropdownItem>
-                  <DropdownItem tag="a" href="/sEO">Search Engine Optimization (SEO)</DropdownItem>
-                  <DropdownItem tag="a" href="/cloudServices">Cloud Services</DropdownItem>
-                  <DropdownItem tag="a" href="/itConsulting">IT Consulting</DropdownItem>
+                  <DropdownItem tag={Link} href="/webDevelopment">Web Development</DropdownItem>
+                  <DropdownItem tag={Link} href="/mobileAppDevelopment">Mobile App Development</DropdownItem>
+                  <DropdownItem tag={Link} href="/dataAnalytics">Data Analytics</DropdownItem>
+                  <DropdownItem tag={Link} href="/sEO">Search Engine Optimization (SEO)</DropdownItem>
+                  <DropdownItem tag={Link} href="/cloudServices">Cloud Services</DropdownItem>
+                  <DropdownItem tag={Link} href="/itConsulting">IT Consulting</DropdownItem>
                 </DropdownMenu>
               </Dropdown>
 
               <NavItem>
-                <NavLink href="/blog">Blog</NavLink>
+                <NavLink tag={Link} to="/blog">Blog</NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="/career">Career</NavLink>
+                <NavLink tag={Link} to="/career">Career</NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="/contact">Contact</NavLink>
+                <NavLink tag={Link} to="/contact">Contact</NavLink>
               </NavItem>
             </Nav>
             <a
