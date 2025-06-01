@@ -39,7 +39,7 @@ function HomePage() {
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <MyNavbar />
       <ScrollToTop />
 
@@ -60,7 +60,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </HashRouter>
+    </Router>
   );
 }
 
