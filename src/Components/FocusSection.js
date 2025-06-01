@@ -9,11 +9,13 @@ const FocusSection = () => {
         {/* Left column */}
         <div className="column">
           <div className="image-wrapper">
-            <img src="/assets/Python.webp" alt="IOT" />
+            <img src={`${process.env.PUBLIC_URL}/assets/Python.webp`} alt="python" />
+          
             <span className="label">Python</span>
           </div>
           <div className="image-wrapper">
-            <img src="/assets/full stack development.gif" alt="5G" />
+          <img src={`${process.env.PUBLIC_URL}/assets/full stack development.gif`} alt="FSD" />
+
             <span className="label">Full Stack Development</span>
           </div>
         </div>
@@ -21,7 +23,7 @@ const FocusSection = () => {
         {/* Center vertical image */}
         <div className="center-image">
           <div className="image-wrapper vertical">
-            <img src="/assets/robo.avif" alt="AI/ML" />
+          <img src={`${process.env.PUBLIC_URL}/assets/robo.avif`} alt="AI" />
             <span className="label">OpenAI & Artificial Intelligence</span>
           </div>
         </div>
@@ -29,11 +31,11 @@ const FocusSection = () => {
         {/* Right column */}
         <div className="column">
           <div className="image-wrapper">
-            <img src="/assets/java.png" alt="Blockchain" />
+          <img src={`${process.env.PUBLIC_URL}/assets/java.png`} alt="Java" />
             <span className="label">Java</span>
           </div>
           <div className="image-wrapper">
-            <img src="/assets/Android.jpg" alt="Data Science" />
+          <img src={`${process.env.PUBLIC_URL}/assets/Android.jpg`} alt="Android" />
             <span className="label">Android</span>
           </div>
         </div>
