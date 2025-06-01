@@ -1,0 +1,50 @@
+.webdev-page {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 135px;
+    /* to prevent overlap with fixed navbar */
+    background-color: #fefefe;
+    color: #333;
+}
+
+.webdev-header {
+    position: relative;
+    text-align: center;
+}
+
+.webdev-banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-bottom: 3px solid #ffffff;
+}
+
+.webdev-title {
+    padding-top: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.webdev-content {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.webdev-content ul {
+    padding-left: 0.5rem;
+    list-style: none;
+}
+
+.webdev-content li::before {
+    content: '✔';
+    margin-right: 10px;
+    color: green;
+}

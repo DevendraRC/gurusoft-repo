@@ -1,0 +1,63 @@
+.career-page {
+    padding: 200px 20px 40px 20px;
+    background-color: #fffdf5;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.career-page h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.career-message {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    color: #856404;
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.career-header {
+    background-color: #fdfdfd;
+    padding: 40px 20px;
+}
+
+.career-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    /* Responsive: stack on small screens */
+}
+
+.career-banner img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.career-text {
+    max-width: 600px;
+}
+
+.career-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.career-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}

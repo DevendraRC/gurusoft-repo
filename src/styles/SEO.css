@@ -1,0 +1,48 @@
+.seo-page {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 135px;
+}
+
+.seo-header {
+    position: relative;
+    text-align: center;
+}
+
+.seo-banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-bottom: 3px solid #ffffff;
+}
+
+.seo-title {
+    padding-top: 550px;
+
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.seo-content {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.seo-content ul {
+    padding-left: 0.5rem;
+    list-style: none;
+}
+
+.seo-content li::before {
+    content: '✔';
+    margin-right: 10px;
+    color: green;
+}
