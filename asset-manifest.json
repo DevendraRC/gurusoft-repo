@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/gurusoft-repo/static/css/main.01d0a4bf.css",
+    "main.js": "/gurusoft-repo/static/js/main.a1a975aa.js",
+    "static/js/453.47f0a07e.chunk.js": "/gurusoft-repo/static/js/453.47f0a07e.chunk.js",
+    "static/media/data-analytics-banner.jpg": "/gurusoft-repo/static/media/data-analytics-banner.830f41a29f343b6a9113.jpg",
+    "static/media/mob-AppDev-banner.jpg": "/gurusoft-repo/static/media/mob-AppDev-banner.4363b29ce9003347c697.jpg",
+    "static/media/about-left.jpg": "/gurusoft-repo/static/media/about-left.b539d0c2fbd151f50147.jpg",
+    "static/media/hero-right.png": "/gurusoft-repo/static/media/hero-right.2a0eae98c633c7c789e2.png",
+    "static/media/web-dev-banner.jpg": "/gurusoft-repo/static/media/web-dev-banner.b697f2cd79b52d65592b.jpg",
+    "static/media/logo.png": "/gurusoft-repo/static/media/logo.48ddb343039758e52c7a.png",
+    "static/media/SEO-banner.jpg": "/gurusoft-repo/static/media/SEO-banner.0f4dd4dfbc1b8ecfb6c0.jpg",
+    "static/media/about-banner.jpg": "/gurusoft-repo/static/media/about-banner.290d58cce975729809fd.jpg",
+    "static/media/IT-banner.jpg": "/gurusoft-repo/static/media/IT-banner.cde486560f5ce77f85ca.jpg",
+    "static/media/spm.png": "/gurusoft-repo/static/media/spm.83b232841faaa9981f8b.png",
+    "static/media/about-bg.jpg": "/gurusoft-repo/static/media/about-bg.8f5073c6890313a8ffdc.jpg",
+    "static/media/RiseAI.jpeg": "/gurusoft-repo/static/media/RiseAI.c134c65eb46d28ab56ca.jpeg",
+    "static/media/ekveera.png": "/gurusoft-repo/static/media/ekveera.724fc8003610b06e9b75.png",
+    "static/media/wave-pattern.png": "/gurusoft-repo/static/media/wave-pattern.44ab57eb9b54a1f408b3.png",
+    "static/media/CTS.jpeg": "/gurusoft-repo/static/media/CTS.c016641b251ee39230b9.jpeg",
+    "static/media/rentopia.jpg": "/gurusoft-repo/static/media/rentopia.4e060698573fac850303.jpg",
+    "static/media/WDT.webp": "/gurusoft-repo/static/media/WDT.016c322b70fcfeb37c00.webp",
+    "static/media/cloud-banner.jpg": "/gurusoft-repo/static/media/cloud-banner.0423108a68255f1febf1.jpg",
+    "static/media/instagram.png": "/gurusoft-repo/static/media/instagram.243c1f6f1ae9da8ba28d.png",
+    "static/media/card-bg.jpg": "/gurusoft-repo/static/media/card-bg.4577ec572ed964e3e6d8.jpg",
+    "static/media/career-banner.jpg": "/gurusoft-repo/static/media/career-banner.1e8194d52d7140621cea.jpg",
+    "static/media/IQ.jpg": "/gurusoft-repo/static/media/IQ.71e0394c7235e34ce6dc.jpg",
+    "static/media/mmPoly.jpeg": "/gurusoft-repo/static/media/mmPoly.6f1618f993058627fc12.jpeg",
+    "static/media/littleChamps.jpeg": "/gurusoft-repo/static/media/littleChamps.9550297413447dc5bd06.jpeg",
+    "index.html": "/gurusoft-repo/index.html",
+    "main.01d0a4bf.css.map": "/gurusoft-repo/static/css/main.01d0a4bf.css.map",
+    "main.a1a975aa.js.map": "/gurusoft-repo/static/js/main.a1a975aa.js.map",
+    "453.47f0a07e.chunk.js.map": "/gurusoft-repo/static/js/453.47f0a07e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01d0a4bf.css",
+    "static/js/main.a1a975aa.js"
+  ]
+}
