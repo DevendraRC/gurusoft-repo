@@ -16,7 +16,7 @@ import MobileAppDevelopment from './Components/MobileAppDevelopment';
 import DataAnalytics from './Components/DataAnalytics';
 import SEO from'./Components/SEO';
 import CloudServices from './Components/CloudService';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import ITConsulting from './Components/ITConsulting';
 import Clients from './Components/Clients';
 import WhatsappButton from './Components/WhatsappButton';
@@ -39,7 +39,7 @@ function HomePage() {
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <MyNavbar />
       <ScrollToTop />
 
@@ -60,7 +60,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
