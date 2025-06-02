@@ -26,6 +26,8 @@ const Footer = () => {
           </p>
 
           <div className="footer-contact-info">
+            
+            <p><FaPhoneAlt className="footer-icon" /> <a href="tel:+919960417935">+91 9960417935</a></p>
             <p><FaPhoneAlt className="footer-icon" /> <a href="tel:+919148997729">+91 9148997729</a></p>
             <p><FaEnvelope className="footer-icon" /> <a href="mailto:hr@gurusoftwaresolution.com">hr@gurusoftwaresolution.com</a></p>
             <p>
