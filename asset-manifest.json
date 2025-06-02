@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gurusoft-repo/static/css/main.01d0a4bf.css",
-    "main.js": "/gurusoft-repo/static/js/main.84ebe1b7.js",
+    "main.js": "/gurusoft-repo/static/js/main.c65165af.js",
     "static/js/453.47f0a07e.chunk.js": "/gurusoft-repo/static/js/453.47f0a07e.chunk.js",
     "static/media/data-analytics-banner.jpg": "/gurusoft-repo/static/media/data-analytics-banner.830f41a29f343b6a9113.jpg",
     "static/media/mob-AppDev-banner.jpg": "/gurusoft-repo/static/media/mob-AppDev-banner.4363b29ce9003347c697.jpg",
@@ -29,11 +29,11 @@
     "static/media/littleChamps.jpeg": "/gurusoft-repo/static/media/littleChamps.9550297413447dc5bd06.jpeg",
     "index.html": "/gurusoft-repo/index.html",
     "main.01d0a4bf.css.map": "/gurusoft-repo/static/css/main.01d0a4bf.css.map",
-    "main.84ebe1b7.js.map": "/gurusoft-repo/static/js/main.84ebe1b7.js.map",
+    "main.c65165af.js.map": "/gurusoft-repo/static/js/main.c65165af.js.map",
     "453.47f0a07e.chunk.js.map": "/gurusoft-repo/static/js/453.47f0a07e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01d0a4bf.css",
-    "static/js/main.84ebe1b7.js"
+    "static/js/main.c65165af.js"
   ]
 }
